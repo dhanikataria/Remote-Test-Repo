@@ -4,11 +4,11 @@ FROM python:latest
 WORKDIR /home/remnux/Downloads/local-repo
 
 #to COPY the remote file at working directory in container
-COPY hello.py ./
+COPY main.py ./
 # Now the structure looks like this '/home/remnux/Downloads/local-repo/hello.py'
 
 
 #CMD instruction should be used to run the software
 #contained by your image, along with any arguments.
 
-CMD [ "python", "hello.py"]
+CMD [ "python", "main.py"]
