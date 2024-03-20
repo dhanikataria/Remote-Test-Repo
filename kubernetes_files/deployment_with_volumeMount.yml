@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+spec:
+  selector:
+    matchLabels:
+      app: nginx
+  replicas: 2 # tells deployment to run 2 pods matching the template
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.14.2
+        volumeMounts:    # To read the volume created below, I need to mount (reading inside pod) it 
+          - name: db-connection #Name of volume created below which is to be read
+            mountPath: /opt   #path where to  mount. U can choose any other path too
+        ports:
+        - containerPort: 80
+      volumes:  #creating a volume
+        - name: db-connection   #whatever name you want to give to your volume
+          configMap:    #this means the volume should read the information from a configmap
+              name: test-cm  #this name should be the exact name of your configMap  
