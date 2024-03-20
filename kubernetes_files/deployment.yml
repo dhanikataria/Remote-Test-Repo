@@ -18,7 +18,7 @@ spec:
         env:    # this is to add environment variable from the configMap
          - name: DB_PORT # Give any name you want to give to the env varibale
            valueFrom: #Under this we will define from where we will be getting the value for the env varibale DB_PORT
-            configMapRef: 
+            configMapKeyRef: 
              name: test-cm #name of the configmap you applied which contains the list of env variables
              key: db-port #This has to be exact same what you have defined in configMap
         ports:
