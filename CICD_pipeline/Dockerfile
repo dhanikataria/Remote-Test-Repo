@@ -4,7 +4,7 @@ FROM python:latest
 WORKDIR /app
 
 #to COPY the remote file at working directory in container
-COPY cipherbreaker.py ./
+COPY ../cipherbreaker.py ./
 # Now the structure looks like this '/home/remnux/Downloads/local-repo/hello.py'
 
 
