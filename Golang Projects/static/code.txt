@@ -31,7 +31,7 @@ func CyberAwareness_Game_Handler(w http.ResponseWriter, r *http.Request) {
 }
 
 func golang_code_Handler(w http.ResponseWriter, r *http.Request) {
-	http.ServeFile(w, r, "./static/code.txt")
+	http.ServeFile(w, "./static/golang_code/code.txt")
 }
 
 func main() {
