@@ -1,6 +1,6 @@
 # CRUD API in GoLang
 
-This is a simple CRUD (Create, Read, Update, Delete) API implementation in GoLang using the Gorilla Mux router.
+This is a simple CRUD (Create, Read, Update, Delete) API implementation in GoLang using the Gorilla Mux router. REST API will be used to interact with the resources
 
 ## Features
 
@@ -12,28 +12,6 @@ This is a simple CRUD (Create, Read, Update, Delete) API implementation in GoLan
 ## Requirements
 
 - GoLang installed on your system.
-
-## Installation
-
-1. Clone this repository:
-
-    ```bash
-    git clone https://github.com/yourusername/your-repo.git
-    ```
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd your-repo
-    ```
-
-3. Run the application:
-
-    ```bash
-    go run main.go
-    ```
-
-4. The API server should now be running on `http://localhost:8080`.
 
 ## Usage
 
