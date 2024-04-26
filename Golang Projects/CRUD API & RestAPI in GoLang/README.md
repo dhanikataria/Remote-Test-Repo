@@ -1,4 +1,4 @@
-# CRUD API in GoLang
+# CRUD API & REST API in GoLang
 
 This is a simple CRUD (Create, Read, Update, Delete) API implementation in GoLang using the Gorilla Mux router. REST API will be used to interact with the resources
 
