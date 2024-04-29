@@ -1,3 +1,4 @@
+## Project Structure
 
 - **cmd**: Contains the main executable file (`main.go`) responsible for starting the application.
 - **package**: Contains various modules for different parts of the application:
