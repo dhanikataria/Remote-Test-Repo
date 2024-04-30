@@ -43,6 +43,4 @@ Ensure that MySQL is installed and running on your system. Update the database c
 - `POST /books`: Create a new book.
 - `DELETE /books/{id}`: Delete a book by ID.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
