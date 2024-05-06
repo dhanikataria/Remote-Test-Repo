@@ -1,6 +1,6 @@
 # Simple Load Balancer in Go
 
-This is a simple implementation of a load balancer in Go, which distributes incoming HTTP requests among a list of backend servers.
+This is a simple implementation of a load balancer in Go, which distributes incoming HTTP requests among a list of servers.
 
 ## Overview
 

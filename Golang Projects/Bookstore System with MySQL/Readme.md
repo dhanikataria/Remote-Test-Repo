@@ -1,3 +1,6 @@
+## Applicaiton Overview
+This application is a prototype for a book store management system. For storing the books data, MySQL server is integrated with the HTTP server. For SQL operations GORM package is used. You can send the HTTP requests through APIs for performing the operationm such as retrieve books data, delete book etc.
+
 ## Project Structure
 
 - **cmd**: Contains the main executable file (`main.go`) responsible for starting the application.
