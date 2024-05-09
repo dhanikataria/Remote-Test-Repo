@@ -2,7 +2,7 @@
 
 ## Identifying Stale EBS Snapshots
 
-In this project, a Lambda function was created which identified EBS snapshots that are no longer associated with any active EC2 instance and deletes them to save on storage costs.
+In this project, a Lambda function was created using Boto3 which identified EBS snapshots that are no longer associated with any active EC2 instance and deletes them to save on storage costs.
 
 ### Description:
 
