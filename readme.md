@@ -1,4 +1,4 @@
-# Welcome to [Your Repository Name]
+# Welcome to My Repository
 
 ## Introduction
 This repository houses a collection of projects spanning various technologies and languages, aimed at showcasing diverse skill sets and tackling different aspects of software development and deployment. Below is an overview of the folders and their contents:
