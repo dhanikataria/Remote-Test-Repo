@@ -4,7 +4,7 @@
   - This script retrieves modules from specified providers using the Terraform Registry API.
   - It fetches details such as module name, version, published date, downloads this year, and provider.
   - The retrieved data is saved into a CSV file for easy access and analysis.
-  - 
+    
 ### 2. Usage
 - **Description**: Perform the following steps before using this script.
 - **Step-1**: Setting the attributes (lines 6 to 9 in code)
