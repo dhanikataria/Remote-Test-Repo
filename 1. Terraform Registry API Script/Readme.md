@@ -7,6 +7,7 @@
     
 ### 2. Usage
 - **Description**: Perform the following steps before using this script.
+  
 - **Step-1**: Setting the attributes (lines 6 to 9 in code)
   - **api_key** = Generate the api_key from Terraform Enterprise. Either put directly in the script or set it as env variable.
   - **limit_per_result** = This will set the amount of result per response. The maximum results per page is 100.
