@@ -13,7 +13,7 @@
   - **provider** = List all the providers for which you want to retrive the information.
   - **csv_file** = Provide the name of the output csv file which will include the retrieved information
     
-- **Step-2**: Setting the base_url domain (line 19 in code)
+- **Step-2**: Setting the base_url domain (line 20 in code)
   - **base_url** = Set your actual domain name in the URL
 
 - **Step-3**: (Optional) Retrieving additional Information
