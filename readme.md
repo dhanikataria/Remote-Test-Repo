@@ -5,14 +5,7 @@ This repository houses a collection of projects spanning various technologies an
 
 ## Folders and Projects
 
-### 1. CICD Pipeline
-- **Description**: Implements a complete Continuous Integration and Continuous Deployment (CICD) pipeline for containerizing a Python application and publishing it onto Docker Hub.
-- **Contents**:
-  - Dockerfile
-  - Jenkinsfiles
-  - Scripts for Linux and AWS Cloud environment setup
-
-### 2. Golang Projects
+### 1. Golang Projects
 - **Description**: Several projects demonstrating the use of Golang in different scenarios.
 - **Projects**:
   - AWS Lambda Function using Golang
@@ -21,10 +14,10 @@ This repository houses a collection of projects spanning various technologies an
   - Load Balancer using Golang
   - Simple Golang Webserver
 
-### 3. Java Project
+### 2. Java Project
 - **Description**: Automated Banking Machine Project.
 
-### 4. Python Projects
+### 3. Python Projects
 - **Description**: A variety of Python projects showcasing automation and integration capabilities.
 - **Projects**:
   - Automate server.conf with Python
@@ -32,7 +25,7 @@ This repository houses a collection of projects spanning various technologies an
   - Cipher Breaker Algorithm in Python
   - Cloud Cost Optimization using Boto3
 
-### 5. Terraform Projects
+### 4. Terraform Projects
 - **Description**: Projects demonstrating infrastructure provisioning using Terraform.
 - **Projects**:
   - Deploy Flask Application on AWS
