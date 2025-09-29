@@ -17,7 +17,7 @@ headers = {
 all_modules ={}
 temp_modules_list=[]
 for i in provider:
-    base_url = f"https://terraform.cantire.com/api/registry/v1/modules?limit={limit_per_result}&provider={i}"
+    base_url = f"https://PUT_YOUR_DOMAIN_HERE/api/registry/v1/modules?limit={limit_per_result}&provider={i}"
     next_url=base_url
     while True:
         response = requests.get(next_url, headers=headers)
@@ -50,3 +50,4 @@ with open(csv_file, mode='w', newline='') as file:
         writer.writerow(module)
 
 print(f"File has been successfully created in project folder and named as {csv_file}")
+
