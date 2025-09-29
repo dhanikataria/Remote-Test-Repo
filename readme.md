@@ -30,9 +30,3 @@ This repository houses a collection of projects spanning various technologies an
 - **Projects**:
   - Deploy Flask Application on AWS
   - EC2 Instance Config using Terraform Modules
-
-### 6. Kubernetes Files
-- **Description**: YAML files for different Kubernetes cluster deployments.
-- **Contents**:
-  - ClusterIP, Ingress controllers, NodePort service deployment files, etc.
-
