@@ -1,4 +1,11 @@
-### 1. Usage
+### 1. Overview: Terraform Registry API Script
+- **Description**: A Python script that uses the Terraform Registry API to retrieve required information.
+- **Details**:
+  - This script retrieves modules from specified providers using the Terraform Registry API.
+  - It fetches details such as module name, version, published date, downloads this year, and provider.
+  - The retrieved data is saved into a CSV file for easy access and analysis.
+  - 
+### 2. Usage
 - **Description**: Perform the following steps before using this script.
 - **Step-1**: Setting the attributes (lines 6 to 9 in code)
   - **api_key** = Generate the api_key from Terraform Enterprise. Either put directly in the script or set it as env variable.
@@ -14,5 +21,5 @@
 
 - **Step-4**: Run the script
 
-### 2. Output
+### 3. Output
 - **Description**: A csv file will be automatically generated with the name provided under parameter csv_file.
