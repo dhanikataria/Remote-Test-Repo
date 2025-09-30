@@ -7,7 +7,6 @@
     
 ### 2. Usage
 - **Description**: Perform the following steps before using this script.
-  
 - **Step-1**: Setting the attributes (lines 6 to 9 in code)
   - **api_key** = Generate the api_key from Terraform Enterprise. Either put directly in the script or set it as env variable.
   - **limit_per_result** = This will set the amount of result per response. The maximum results per page is 100.
@@ -21,6 +20,5 @@
   - **Additional Information** = If you want to retrive additional information than what is mentioned in lines 28 to 32 of the code. Just create another key-value pair for that.
 
 - **Step-4**: Run the script
-
 ### 3. Output
 - **Description**: A csv file will be automatically generated with the name provided under parameter csv_file.
