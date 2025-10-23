@@ -2,7 +2,7 @@
 - **Description**: A Python script that uses the Terraform Registry API to retrieve required information.
 - **Details**:
   - This script retrieves modules from specified providers using the Terraform Registry API.
-  - It fetches details such as module name, version, published date, downloads this year, and provider.
+  - It fetches details such as module name, version, published date, downloads overall, and provider.
   - The retrieved data is saved into a CSV file for easy access and analysis.
     
 ### 2. Usage
